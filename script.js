@@ -4,6 +4,8 @@ const buttonCalcular = document.getElementById('calcular')
 
 
 const calcularTabuada = function () {
+    let alvo = document.getElementById("resultadoList");
+    alvo.innerText = "";
   //  let tabuada = Number(String(multiplicando).replace(',', '.'));
   //  let maxContador = Number(String(maxMultiplicador).replace(',', '.'));
     let status = true;
@@ -29,6 +31,7 @@ const calcularTabuada = function () {
             //console.log(resultado)
             //cont = cont + 1;
             cont++;
+
             //cont += 1;
         }
         
