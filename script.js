@@ -22,7 +22,6 @@ const calcularTabuada = function () {
     else {
         while (cont <= inputMultiplicador) {
             resultado = inputMultiplicando * cont;
-            //const textareaResultadoList = document.getElementById('resultadoList')
             textareaResultadoList.innerHTML += `${inputMultiplicando} x ${cont} = ${resultado} <br/>`;
             cont++;
 
